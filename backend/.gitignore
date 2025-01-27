@@ -1,16 +1,15 @@
-# Node.js
 node_modules/
 npm-debug.log
 yarn-error.log
 .env
 *.env
 
-# Betriebssystemdateien
+# OS-System Data
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# SQLite DB-Datei (für deine Benutzerdatenbank)
+# SQLite DB-Data
 userDatabase.db
