@@ -1,0 +1,22 @@
+{
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext", // Use ESNext for module handling
+    "moduleResolution": "node",
+    "esModuleInterop": true, // Enables compatibility between CommonJS and ES modules
+    "skipLibCheck": true, // Skip type checking of declaration files (optional)
+    "strict": true, // Enable all strict type checking options
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/server.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
